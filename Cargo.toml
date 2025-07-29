@@ -1,0 +1,9 @@
+[package]
+name = "rust_obj-to-voxels-colorized"
+version = "0.1.0"
+edition = "2024"
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
